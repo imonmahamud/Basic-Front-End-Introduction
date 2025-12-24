@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+/* header area start here */
+
+.fix {
+    overflow: hidden;
+}
+
+.header-area {
+    padding:10px 0;
+}
+
+.container {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left:10px;
+    background: #000;
+}
+.menu ul li:last-child {
+    margin-left:10px;
+    background: olivedrab;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+}
+
+/* header area end here */
