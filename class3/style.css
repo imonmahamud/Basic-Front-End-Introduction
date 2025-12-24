@@ -1,0 +1,90 @@
+.test{
+position:relative;
+width:750px;
+}
+.img{
+
+}
+.img img{
+    width:100%
+}
+.demo{
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ text-align: center;
+}
+.demo h2{
+    margin: 0;
+    line-height: .8;
+    color: #1000ff;
+    font-size: 30px;
+}
+.work-area{
+    width: 500px;
+}
+.work-area .img a{
+    position: relative;
+    display: block;
+    
+}
+.work-area .img a:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    content: "";
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: .5s;
+    
+}
+.work-area .img a:after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    width: 0;
+    background: red;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.work-area .img a:hover:before{
+    opacity: 0.7;
+    width: 50%;
+
+}
+.work-area .img a:hover:after{
+    opacity: .7;
+    width: 50%;
+
+}
+
+work-area .img img{
+    width:100%;
+}
+
+.text{}
+.text h1{
+    position: relative;
+    display: inline;
+}
+.text h1:before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 2px;
+    width: 50px;
+    background: #000;
+    transition: .3s;
+}
+.text h1:hover:before{
+background: yellow;
+    width:100%
+}
