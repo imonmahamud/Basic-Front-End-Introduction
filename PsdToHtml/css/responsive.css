@@ -84,12 +84,73 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
- 
+.container{width: 300px;}
+.mean-container a.meanmenu-reveal span {
+	position: absolute;
+	width: inherit;
+	margin: 5px 0;
 }
- 
+.mean-container .mean-bar {
+	margin: 20px 0;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	height: 28px;
+}
+ .slider-area .single-slide h2 {
+	font-size: 50px;
+
+}
+.col-8 {
+	width: 100%;
+}
+.col-4 {
+	width: 100%;
+}
+.cta-area .cta-button {
+	float: left;
+}
+.feature-area .single-feature {
+	margin-bottom: 15px;
+}
+.col-6 {
+	width: 100%;
+}
+.video-img{
+    margin-bottom: 20px;
+}
+.video-img img {
+	width: 100%;
+}
+.blog-area .blog-wrapper .blog-img {
+	float: none;
+	width: 100%;
+}
+.blog-area .blog-wrapper .blog-content {
+	padding-left: 0px;
+	float: none;
+	width: 100%;
+}
+.blog-active .owl-nav div.owl-next {
+	left: 80%;
+}
+.blog-active .owl-nav div {
+	left: 70%;
+}
+.brand-image {
+	text-align: center;
+}
+.brand-image a{
+	display: inline-block;
+}
+.col-3 {
+	width: 100%;
+	margin-bottom: 20px;
+}
+}
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+.container{width:450px}
+.feature-image img {
+	width: 100%;
+}
 }
