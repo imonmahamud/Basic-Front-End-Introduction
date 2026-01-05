@@ -1,4 +1,10 @@
 $(document).ready(function () {
+jQuery('#mobile-menu').meanmenu({
+    meanScreenWidth: "767",
+    meanMenuContainer: '.mobile-menu'
+});
+
+
     $('.slider-active').owlCarousel({
         loop: true,
         dots: true,
@@ -9,7 +15,7 @@ $(document).ready(function () {
                 items: 1
             },
             600: {
-                items: 3
+                items: 1
             },
             1000: {
                 items: 1
@@ -26,6 +32,12 @@ $(document).ready(function () {
                 items: 1
             },
             600: {
+                items: 3
+            },
+            768: {
+                items: 2
+            },
+            992: {
                 items: 3
             },
             1000: {
@@ -68,7 +80,13 @@ $('.vidoe-popup').magnificPopup({
             600: {
                 items: 1
             },
-            1000: {
+            768: {
+                items: 3,margin:20,
+            },
+            992: {
+                items: 4
+            },
+            1200: {
                 items: 6
             }
         }
